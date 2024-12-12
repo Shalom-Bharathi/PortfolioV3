@@ -212,7 +212,6 @@
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
-        // Custom cursor movement with motion blur
         const cursor = document.querySelector('.cursor');
         document.addEventListener('mousemove', (e) => {
             cursor.style.left = e.clientX - 10 + 'px';
@@ -223,8 +222,8 @@
             }, 100);
         });
 
-        // Countdown Timer
-        const countDownDate = new Date("Dec 14, 2024 22:30:00 GMT+0530").getTime();
+        
+        const countDownDate = new Date("Dec 15, 2024 22:30:00 GMT+0530").getTime();
 
         const countdown = setInterval(function() {
             const now = new Date().getTime();
